@@ -14,7 +14,7 @@ import javax.ws.rs.core.MediaType;
 import org.vishal.bean.Country;
 import org.vishal.service.CountryService;
 
-@Path("/countries")
+@Path("/country")
 public class CountryController {
 	
 	CountryService countryservice= new CountryService();
