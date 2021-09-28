@@ -10,7 +10,7 @@ public class Country{
 	@JsonProperty
 	long population;
 public Country() {
-super();
+	
 }
 public Country(int i, String countryName,long population) {
 super();
